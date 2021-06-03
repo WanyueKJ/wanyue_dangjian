@@ -87,7 +87,7 @@
   ### 页面展示
     ![页面展示](https://images.gitee.com/uploads/images/2021/0602/174037_b8635057_2242923.jpeg "1.jpg")
   #### 功能对比
-   ![对比](https://images.gitee.com/uploads/images/2021/0602/174059_23db3739_2242923.jpeg "2.jpg")
+   ![对比](https://images.gitee.com/uploads/images/2021/0603/095505_730807d0_2242923.png "功能对比4(2).png")
   
    ### 开源版使用须知
     
