@@ -1,0 +1,43 @@
+2021-03-22 18:08:04|ERROR|Home.GetConfig|RedisException: NOAUTH Authentication required. in D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php:60
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php(60): Redis->get('getConfigPub')
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(199): getcaches('getConfigPub')
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Home.php(106): getConfigPub()
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Home->getConfig()
+#4 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#5 {main}
+2021-03-22 18:08:04|ERROR|Home.Getindex|RedisException: NOAUTH Authentication required. in D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php:60
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php(60): Redis->get('getConfigPub')
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(199): getcaches('getConfigPub')
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(219): getConfigPub()
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Domain\Home.php(14): get_host()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Home.php(127): Domain_Home->getindex()
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Home->getindex()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-22 18:08:04|ERROR|Home.GetConfig|RedisException: NOAUTH Authentication required. in D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php:60
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php(60): Redis->get('getConfigPub')
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(199): getcaches('getConfigPub')
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Home.php(106): getConfigPub()
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Home->getConfig()
+#4 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#5 {main}
+2021-03-22 18:08:04|ERROR|Home.Notice|RedisException: NOAUTH Authentication required. in D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php:60
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php(60): Redis->get('getConfigPub')
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(199): getcaches('getConfigPub')
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Domain\Home.php(351): getConfigPub()
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Home.php(490): Domain_Home->notice('1')
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Home->notice()
+#5 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#6 {main}
+2021-03-22 18:08:04|ERROR|Home.GetConfig|RedisException: NOAUTH Authentication required. in D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php:60
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\Common\redis.php(60): Redis->get('getConfigPub')
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(199): getcaches('getConfigPub')
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Home.php(106): getConfigPub()
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Home->getConfig()
+#4 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#5 {main}

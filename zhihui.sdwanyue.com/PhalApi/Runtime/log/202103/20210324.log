@@ -1,0 +1,81 @@
+2021-03-24 10:51:50|ERROR|Tests.SetAnswer|PDOException: Table 'dj_sdwanyue_com.cmf_tests_user' doesn't exist in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT answer,e...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Model\Tests.php(18): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Domain\Tests.php(37): Model_Tests->getAns(Array, 'answer,endtime,...')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(76): Domain_Tests->setAnswer('19', '9', '{"qid":"1","rs"...')
+#6 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->setAnswer()
+#7 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#8 {main}
+2021-03-24 11:44:45|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:44:49|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:44:51|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:44:54|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:46:11|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:49:58|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(60): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}
+2021-03-24 11:50:53|ERROR|Tests.subTests|PDOException: Unknown column 'expiretime' in 'field list' in D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php:258
+Stack trace:
+#0 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(811): NotORM_Result->query('SELECT token,ex...', Array)
+#1 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(888): NotORM_Result->execute()
+#2 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\NotORM\NotORM\Result.php(876): NotORM_Result->fetchRow('')
+#3 D:\My_project\dj.sdwanyue.com\PhalApi\Common\functions.php(250): NotORM_Result->fetchOne()
+#4 D:\My_project\dj.sdwanyue.com\PhalApi\Appapi\Api\Tests.php(61): checkToken('0', '')
+#5 D:\My_project\dj.sdwanyue.com\PhalApi\PhalApi\PhalApi.php(57): Api_Tests->subTests()
+#6 D:\My_project\dj.sdwanyue.com\public\appapi\index.php(15): PhalApi->response()
+#7 {main}

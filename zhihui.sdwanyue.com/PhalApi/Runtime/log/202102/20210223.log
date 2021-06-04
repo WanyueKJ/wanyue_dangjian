@@ -1,0 +1,24 @@
+2021-02-23 11:19:50|ERROR|User.checkParty|exception 'PDOException' with message 'Unknown column 'party_money' in 'field list'' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT id,user_...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Common/functions.php(268): NotORM_Result->fetchOne()
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/User.php(16): getUserInfo('3')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/User.php(92): Domain_User->checkParty('3')
+#6 [internal function]: Api_User->checkParty()
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}
+2021-02-23 11:20:11|ERROR|User.checkParty|exception 'PDOException' with message 'Unknown column 'party_money' in 'field list'' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT id,user_...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Common/functions.php(269): NotORM_Result->fetchOne()
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/User.php(16): getUserInfo('3')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/User.php(92): Domain_User->checkParty('3')
+#6 [internal function]: Api_User->checkParty()
+#7 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#8 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#9 {main}

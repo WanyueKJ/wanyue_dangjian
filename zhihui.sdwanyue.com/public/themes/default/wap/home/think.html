@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>思想交流</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection" />
+<!-- Set render engine for 360 browser -->
+<meta name="renderer" content="webkit">
+
+<!-- No Baidu Siteapp-->
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<link href="__STATIC__/appapi/css/page.css?t=1577502879" rel="stylesheet">
+<link href="__STATIC__/appapi/lightbox/zoomify.min.css?t=1577502879" rel="stylesheet">
+<script type="text/javascript" src="__STATIC__/wxshare/share/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__STATIC__/js/layer/layer.js"></script>
+<style>
+	video{
+		width: 100%;
+	}
+	body{
+		overflow-x: hidden;
+		word-break: break-all;
+	}
+</style>
+</head>
+
+<body class="body-white">
+	<h1 class="title">{$info.title}</h1>
+	<h6 class="totalmes" style="padding-bottom: 5px;">
+		<span class="time-div">
+			<img src="{$info['userinfo']['avatar']}" class="avatar-title" > 
+			<div class="time-div-right" style="font-size:14px">
+				<div class="name-title" style="font-weight: 400;">{$info['userinfo']['user_nickname']} | {$info['userinfo']['branch']}</div>
+				<div class="addtime"> {:date('Y-m-d H:i',$info['addtime'])}</div>
+			</div>
+			<span class="view" style="font-size:14px">阅读次数：{$info['view']}</span>
+		</span>  
+		
+	</h6>
+	<div class="container tc-main">	
+		<div class="page_content">
+		    {$info.content}
+		</div>
+		<div class="details_imags">
+			<volist name="thumbs" id="value">
+				<img src="{$value}~thumb" data-src="{$value}" data-srca="{$value}~thumb" class='dv' alt="">
+			</volist>
+		</div>
+		
+	</div>
+	<!-- /container -->
+	<div class="ping" id="ping">
+		<div class="ping-tit">
+			<if condition="$small_switch eq 0">
+				<span class="ping-tit-sapn span-ping choose">评论(<icon class="num">{$countping}</icon>)</span>
+			</if>
+			
+			<span class="ping-tit-sapn span-zan choose">赞(<icon class="num">{$countzan}</icon>)</span>
+		</div>
+		<div class="ping-main">
+			<foreach name="$pinginfo" item="vo">
+			
+			<div class="ping-con">
+			
+				<div  class="ping-con-avatar"><img src="{$vo.userinfo.avatar}" /></div>
+				<div class="ping-con-main">
+					<p class="ping-con-name">{$vo.userinfo.user_nickname} | {$vo.userinfo.branch}</p>
+					<p class="ping-con-time">{$vo.addtime}</p>
+					<p class="ping-con-content">{$vo.content}</p>
+				</div>
+			</div>	
+			
+			</foreach>		
+	
+		</div>
+	</div>
+	
+	
+	<div class="bottom-tc"></div>
+	
+	<div class="js-bottom">
+		<if condition="$small_switch eq 0">
+			<span class="span-c">说点什么吧...</span>
+			<span class="span-icon btn-msg"><img src="__STATIC__/appapi/images/comment.png" /><i>{$countping}</i></span>
+		</if>
+
+		<span class="span-icon btn-zan">
+			<if condition="$zinfo['zan'] eq 1">
+			<img src="__STATIC__/appapi/images/zan_c.png" />
+			<else />
+			<img src="__STATIC__/appapi/images/zan.png" />
+			</if>
+			
+		</span>
+		<if condition="$small_switch eq 0">
+			<span class="span-icon btn-collect">
+				<if condition="$zinfo['collect'] eq 1">
+				<img src="__STATIC__/appapi/images/star_c.png" />
+				<else />
+				<img src="__STATIC__/appapi/images/star.png" />
+				</if>		
+			</span>
+		</if>
+
+	</div>
+	<if condition="$small_switch eq 0">
+		<div class="input-main">
+			<div class="input-center">
+				<textarea class="msg" placeholder="说点什么吧..."></textarea>
+				<button class="cancel">取消</button>
+				<button class="postmsg">发表</button>
+			</div>	
+			<div class="input-other"></div>	
+		</div>
+	</if>
+
+	
+	<script src="__STATIC__/appapi/js/jweixin-1.3.2.js"></script>
+	<script>
+		var id = {$info.id};
+		var uid = {$uid};
+		var type = {$type};
+		var token = '{$token}';
+		$('.span-c').click(function(){
+			$('.input-main').fadeIn();
+			$(".input-center").animate({top:'0px'});
+
+		});
+		$('.input-other').click(function(){
+			$('.input-main').fadeOut();
+			$(".input-center").animate({top:'-210px'})
+
+		});	
+		$('.cancel').click(function(){
+			$('.input-main').fadeOut();
+			$(".input-center").animate({top:'-210px'})
+
+		});	
+		$('.postmsg').click(function(){
+			var content = $('.msg').val();
+			if(content ===''){
+				layer.msg('内容不能为空');
+			}
+			var url = "/wap/home/msgpost";
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data:{'id':id,'uid':uid,'token':token,'content':content,'type':type},
+				dataType:'json',
+				success: function(data){
+					if(data==700){
+						wx.miniProgram.redirectTo({
+							url:'/pages/login/index'
+						})
+						return ;
+					}
+					if(data.code==0){
+						layer.msg(data.msg);
+					}
+					if(data.code!=0){
+						layer.msg(data.msg);
+						setTimeout(function(){ location.reload(); }, 1500);
+					}
+				},
+				error: function(data){
+					layer.msg('网络错误，请稍后重试');
+				}				
+			});			
+
+
+		});	
+		$('.btn-msg').click(function(){
+			location.href = "#ping"; 
+		});			
+		$('.btn-zan').click(function(){
+			var url = "/wap/home/zan";
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data:{'id':id,'uid':uid,'token':token,'type':type},
+				dataType:'json',
+				success: function(data){
+					if(data==700){
+						wx.miniProgram.redirectTo({
+							url:'/pages/login/index'
+						})
+						return ;
+					}
+					if(data.code==0){
+						layer.msg(data.msg);
+					}
+					if(data.code!=0){
+						layer.msg(data.msg);
+						setTimeout(function(){ location.reload(); }, 1500);
+					}
+				},
+				error: function(data){
+					layer.msg('网络错误，请稍后重试');
+				}				
+			});	
+		});			
+		$('.btn-collect').click(function(){
+			var url = "/wap/home/collect";
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data:{'id':id,'uid':uid,'token':token,'type':type},
+				dataType:'json',
+				success: function(data){
+					if(data==700){
+						wx.miniProgram.redirectTo({
+							url:'/pages/login/index'
+						})
+						return ;
+					}
+					if(data.code==0){
+						layer.msg(data.msg);
+					}
+					if(data.code!=0){
+						layer.msg(data.msg);
+						setTimeout(function(){ location.reload(); }, 1500);
+					}
+				},
+				error: function(data){
+					layer.msg('网络错误，请稍后重试');
+				}				
+			});	
+		});	
+		
+		$('.span-ping111').click(function(){
+			var _this = this;
+			var url = "/wap/home/countping";
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data:{'id':id,'type':type},
+				dataType:'json',
+				success: function(data){
+					if(data.code==0){
+						layer.msg(data.msg);
+					}else{
+						$('.ping-tit-sapn').removeClass('choose');
+						$(_this).addClass('choose');
+						var html = '';
+						var info = data.msg;
+						for(i=0;i<info.length;i++){
+							html +='<div class="ping-con"> \
+										<div  class="ping-con-avatar"><img src="'+info[i].userinfo.avatar+'" /></div> \
+										<div class="ping-con-main"> \
+											<p class="ping-con-name">'+info[i].userinfo.user_nickname+' | '+info[i].userinfo.branch+'</p> \
+											<p class="ping-con-time">'+info[i].addtime+'</p> \
+											<p class="ping-con-content">'+info[i].content+'</p> \
+										</div> \
+									</div>';
+						}
+						$('.ping-main').html(html);					
+					}
+				},
+				error: function(data){
+					layer.msg('网络错误，请稍后重试');
+				}				
+			});	
+		});
+		$('.span-zan11').click(function(){
+			var _this = this;
+			var url = "/wap/home/countzan";
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data:{'id':id,'type':type},
+				dataType:'json',
+				success: function(data){
+					if(data.code==0){
+						layer.msg(data.msg);
+					}else{
+						$('.ping-tit-sapn').removeClass('choose');
+						$(_this).addClass('choose');					
+						var html = '';
+						var info = data.msg;
+						console.log(info);
+						for(i=0;i<info.length;i++){
+							html +='<div class="ping-con"> \
+										<div  class="ping-con-avatar"><img src="'+info[i].userinfo.avatar+'" /></div> \
+										<div class="ping-con-main"> \
+											<p class="ping-con-name">'+info[i].userinfo.user_nickname+' | '+info[i].userinfo.branch+'</p> \
+											<p class="ping-con-time">'+info[i].addtime+'</p> \
+										</div> \
+									</div>';
+						}
+						$('.ping-main').html(html);	
+						
+					}
+				},
+				error: function(data){
+					layer.msg('网络错误，请稍后重试');
+				}				
+			});	
+		});		
+	
+	
+	</script>
+	
+	<script type="text/javascript" src="__STATIC__/appapi/lightbox/zoomify.min.js"></script>
+	<script type="text/javascript" src="__STATIC__/appapi/js/message.js"></script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

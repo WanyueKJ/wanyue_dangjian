@@ -1,0 +1,543 @@
+2021-03-27 10:00:10|DEBUG|succeed to upload file to qiniu|{"hash":"FkJtwJKbvLaWwxRd8Msc_9GQwKx5","key":"20210327100010_1b62a250208bddb185bed332c5de1030"}
+2021-03-27 19:56:25|DEBUG|succeed to upload file to qiniu|{"hash":"FioDdBKPaHIoJ-jhGtd9qAoO4Axd","key":"20210327195625_26d65b598db4c9820c89cd069ef31238"}
+2021-03-27 19:56:32|DEBUG|succeed to upload file to qiniu|{"hash":"Fh9WjGL_CfUaf7qKxEbGvcYFgHUO","key":"20210327195631_69a98b3a493704884051e7e1eaf1c23a"}
+2021-03-27 23:09:46|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:47|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:48|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:55|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:57|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:09:57|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:11|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:12|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:13|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:13|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:13|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:13|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:13|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:14|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:15|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:15|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:15|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:15|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:16|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:16|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:16|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:16|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:17|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:17|ERROR|Login.UserLogin|PDOException: Duplicate entry '15555555555' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15555555555')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:47|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:48|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:51|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:52|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:53|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:55|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:55|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-03-27 23:10:56|ERROR|Login.UserLogin|PDOException: Duplicate entry '15650098288' for key 'mobile_UNIQUE' in /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Model/Login.php(25): NotORM_Result->insert(Array)
+#3 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/dj.sdwanyue.com/PhalApi/Appapi/Api/Login.php(100): Domain_Login->userLogin('15650098288')
+#5 /www/wwwroot/dj.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/dj.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}

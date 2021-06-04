@@ -1,0 +1,110 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('think/index')}">思想交流</a></li>
+        <li class="active"><a href="{:url('think/edit')}">编辑</a></li>
+    </ul>
+    <form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('think/editPost')}">
+        <div class="form-group">
+            <label for="input-name" class="col-sm-2 control-label">标题<span class="form-required"></span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-name" name="title" value="{$result.title}" disabled="disabled" >
+            </div>
+        </div>
+
+		<div class="form-group">
+			<label for="thumbnail" class="col-sm-2 control-label"><span class="form-required"></span>图片</label>
+			<div class="col-md-6 col-sm-10">
+					<volist name="result['thumbarr']" id="v">
+						<img src="{:get_upload_path($v)}" width="150" style="border:2px solid #000;margin:3px" />
+					</volist>					
+			</div>
+		</div>		
+        <div class="form-group">
+            <label for="input-name" class="col-sm-2 control-label">作者<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-name" name="author"  disabled="disabled"   value="{$result.user_nickname}({$result.uid})">
+            </div>
+        </div>		
+		<div class="form-group">
+			<label for="input-giftname" class="col-sm-2 control-label"><span class="form-required">*</span>内容</label>
+			<div class="col-md-6 col-sm-10">
+				<textarea class="form-control"  disabled="disabled">
+				{$result['content']}
+				</textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="" class="col-sm-2 control-label"><span class="form-required"></span>审核状态</label>
+			<div class="col-md-3 col-sm-5">
+				<select class="form-control" name="status" id="" style="width:300px;">
+					<volist name="status" id="v">
+						<option value="{$key}" <if condition="$key eq $result['status']"> selected </if>>{$v}</option>
+					</volist>
+					<option value="3">审核拒绝并删除</option>
+				</select>
+			</div>
+		</div>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+				<input type="hidden" class="form-control" name="id" value="{$result.id}">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('EDIT')}</button>
+                <a class="btn btn-default" href="{:url('think/index')}">{:lang('BACK')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+<script type="text/javascript">
+	//编辑器路径定义
+	var editorURL = GV.WEB_ROOT;
+</script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+
+<script type="text/javascript">
+
+	$(function () {
+		editorcontent = new baidu.editor.ui.Editor();
+		editorcontent.render('content');
+		try {
+			editorcontent.sync();
+		} catch (err) {
+		}
+
+		$('#more-template-select').val("{$post.more.template|default=''}");
+	});
+
+
+	var map;
+	// 点击开启定位时显示地图
+	$("input[name='is_location']").click(function () {
+		if (this.value === '1') {
+			$(".check-location").show();
+			init();
+		}
+	});
+
+	//点击关闭定位时移除地图元素
+	$("#close-location").click(function () {
+		$(".check-location").hide();
+		$('#mapContainer').children().remove();
+	});
+	$(".btn-cancel-thumbnail").click(function(){
+		$("#thumbnail-preview").attr('src','__TMPL__/public/assets/images/default-thumbnail.png');
+		$("#thumbnail").val('');
+	});
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<include file="public@header" />
+<style>.expander{margin-left: -20px;}</style>
+</head>
+<body>
+<div class="wrap js-check-wrap">
+    <ul class="nav nav-tabs">
+
+        <li class="active"><a href="javascript:;">前端用户权限</a></li>
+    </ul>
+
+    <form class="js-ajax-form margin-top-20"  action="{:url('user/adminOauth/frontouthPost')}" method="post">
+        <div class="table_full">
+            <table class="table table-bordered" id="authrule-tree">
+                <tbody>
+
+                    <volist name="auth_data" id="v">
+                        <tr id="node-{$v.id}"  style=''>
+                            <td style='padding-left:30px;'>
+                                <input type='checkbox' name='menuId[]' <if condition="$v.status == 0">checked</if> value='{$v.id}' level='0'  onclick='javascript:checknode(this);'>
+                                {$v.title}
+                            </td>
+                        </tr>
+                    </volist>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="form-actions">
+            <button class="btn btn-primary js-ajax-submit" type="submit">保存</button>
+            <a class="btn btn-default" href="/admin/rbac/index.html">返回</a>
+        </div>
+    </form>
+
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        Wind.css('treeTable');
+        Wind.use('treeTable', function () {
+            $("#authrule-tree").treeTable({
+                indent: 20
+            });
+        });
+    });
+
+    function checknode(obj) {
+
+        var chk = $("input[type='checkbox']");
+        var count = chk.length;
+
+        var num = chk.index(obj);
+        var level_top = level_bottom = chk.eq(num).attr('level');
+        for (var i = num; i >= 0; i--) {
+            var le = chk.eq(i).attr('level');
+            if (le <level_top) {
+                chk.eq(i).prop("checked", true);
+                var level_top = level_top - 1;
+            }
+        }
+        for (var j = num + 1; j < count; j++) {
+            var le = chk.eq(j).attr('level');
+            if (chk.eq(num).prop("checked")) {
+
+                if (le > level_bottom){
+                    chk.eq(j).prop("checked", true);
+                }
+                else if (le == level_bottom){
+                    break;
+                }
+            } else {
+                if (le >level_bottom){
+                    chk.eq(j).prop("checked", false);
+                }else if(le == level_bottom){
+                    break;
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('news/index')}">新闻</a></li>
+        <li class="active"><a href="{:url('news/add')}">添加</a></li>
+    </ul>
+    <form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('news/addPost')}">
+        <div class="form-group">
+            <label for="input-name" class="col-sm-2 control-label">标题<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-name" name="title">
+            </div>
+        </div>
+		<div class="form-group">
+			<label for="" class="col-sm-2 control-label"><span class="form-required"></span>文章分类</label>
+			<div class="col-md-3 col-sm-5">
+				<select class="form-control" name="listid" id="" style="width:300px;">
+					<volist name="newslist" id="v">
+						<option value="{$v.id}">{$v.name}</option>
+					</volist>
+				</select>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="thumbnail" class="col-sm-2 control-label"><span class="form-required">*</span>图片</label>
+			<div class="col-md-6 col-sm-10">
+				<input type="hidden" name="thumb" id="thumbnail"  value="">
+				<a href="javascript:uploadOneImage('图片上传','#thumbnail');">
+					<img src="__TMPL__/public/assets/images/default-thumbnail.png"
+						 id="thumbnail-preview"
+						 style="cursor: pointer;max-width:100px;max-height:100px;"/>
+				</a>
+				<input type="button" class="btn btn-sm btn-cancel-thumbnail" value="取消图片"> 
+			</div>
+		</div>		
+        <div class="form-group">
+            <label for="input-name" class="col-sm-2 control-label">作者<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-name" name="author">
+            </div>
+        </div>		
+		<div class="form-group">
+			<label for="input-giftname" class="col-sm-2 control-label"><span class="form-required">*</span>内容</label>
+			<div class="col-md-6 col-sm-10">
+				<script type="text/plain" id="content" name="content"></script>
+			</div>
+		</div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('ADD')}</button>
+                <a class="btn btn-default" href="{:url('news/index')}">{:lang('BACK')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+<script type="text/javascript">
+	//编辑器路径定义
+	var editorURL = GV.WEB_ROOT;
+</script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+
+<script type="text/javascript">
+
+	$(function () {
+		editorcontent = new baidu.editor.ui.Editor();
+		editorcontent.render('content');
+		try {
+			editorcontent.sync();
+		} catch (err) {
+		}
+
+		$('#more-template-select').val("{$post.more.template|default=''}");
+	});
+
+
+	var map;
+	// 点击开启定位时显示地图
+	$("input[name='is_location']").click(function () {
+		if (this.value === '1') {
+			$(".check-location").show();
+			init();
+		}
+	});
+
+	//点击关闭定位时移除地图元素
+	$("#close-location").click(function () {
+		$(".check-location").hide();
+		$('#mapContainer').children().remove();
+	});
+	
+	$(".btn-cancel-thumbnail").click(function(){
+		$("#thumbnail-preview").attr('src','__TMPL__/public/assets/images/default-thumbnail.png');
+		$("#thumbnail").val('');
+	});
+
+
+
+
+
+
+</script>
+</body>
+</html>

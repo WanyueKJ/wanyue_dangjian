@@ -1,0 +1,42 @@
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active">评论列表</li>
+		</ul>
+	
+
+		<table class="table table-hover table-bordered margin-top-20">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>用户昵称（UID）</th>
+					<th>内容</th>
+					<th width="160">{:lang('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<php>
+
+				</php>
+				<foreach name="list" item="vo">
+				<tr>				
+					<td>{$vo.id}</td>
+					<td>{$vo.userinfo['user_nickname']}（{$vo['uid']}）</td>
+					<td>{$vo.content}</td>
+					<td>
+						
+						<a class="btn btn-xs btn-danger js-ajax-delete" href="{:url('thinkcomments/delete',array('id'=>$vo['id']))}">{:lang('DELETE')}</a>
+					</td>
+				</tr>
+				</foreach>
+				
+			</tbody>
+		</table>
+
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__STATIC__/js/admin.js"></script>
+</body>
+</html>

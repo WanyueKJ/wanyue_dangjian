@@ -1,0 +1,62 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('notice/index')}">工作提示</a></li>
+        <li class="active"><a href="{:url('notice/add')}">添加</a></li>
+    </ul>
+    <form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('notice/addPost')}">
+        <div class="form-group">
+            <label for="input-name" class="col-sm-2 control-label">标题<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-name" name="title">
+            </div>
+        </div>
+
+	
+		<!-- <div class="form-group">
+			<label for="input-giftname" class="col-sm-2 control-label"><span class="form-required">*</span>内容</label>
+			<div class="col-md-6 col-sm-10">
+				<script type="text/plain" id="content" name="content"></script>
+			</div>
+		</div> -->
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('ADD')}</button>
+                <a class="btn btn-default" href="{:url('notice/index')}">{:lang('BACK')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+<script type="text/javascript">
+	//编辑器路径定义
+	var editorURL = GV.WEB_ROOT;
+</script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__STATIC__/js/ueditor/ueditor.all.min.js"></script>
+
+<script type="text/javascript">
+
+	$(function () {
+		editorcontent = new baidu.editor.ui.Editor();
+		editorcontent.render('content');
+		try {
+			editorcontent.sync();
+		} catch (err) {
+		}
+
+		$('#more-template-select').val("{$post.more.template|default=''}");
+	});
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

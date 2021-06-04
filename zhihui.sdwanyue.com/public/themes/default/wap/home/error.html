@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>失败</title>
+    <meta name="keywords" content="{$site_info.site_seo_keywords|default=''}"/>
+    <meta name="description" content="{$site_info.site_seo_description|default=''}">
+    <include file="wap@head"/>
+    <style type="text/css">
+        body{text-align:center}
+        .title2{color: #526165;font-size: 1.0em;text-align: center;margin-top: 4%;}
+        img{width: 18%;margin: 30% auto 9%;}
+        p{font-size: 0.9em;color: #B4C1C7;text-align: center;line-height: 150%}
+        .alink{color:#00D8C9;text-decoration:underline; }
+    </style>
+</head>
+<body>
+     <img src="__STATIC__/appapi/images/error.jpg">
+     <div class="title2"><p>{$reason}<br></p></div>
+     
+     <include file="wap@footer"/>
+     <include file="wap@scripts"/>
+</body>
+</html>

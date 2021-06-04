@@ -1,0 +1,55 @@
+<include file="public@header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('danghistory/index')}">党史知识</a></li>
+        <li class="active"><a href="{:url('danghistory/edit')}">编辑</a></li>
+    </ul>
+    <form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('danghistory/editPost')}">
+        <div class="form-group">
+            <label for="input-title" class="col-sm-2 control-label">标题<span class="form-required">*</span></label>
+            <div class="col-md-6 col-sm-10">
+                <input type="text" class="form-control" id="input-title" name="title" value="{$result.title}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="thumbnail" class="col-sm-2 control-label"><span class="form-required">*</span>图片</label>
+            <div class="col-md-6 col-sm-10">
+                <input type="hidden" name="thumb" id="thumbnail"  value="{$result.thumb}">
+                <a href="javascript:uploadOneImage('图片上传','#thumbnail');">
+                    <if condition="$result['thumb'] neq ''">
+                        <img src="{:get_upload_path($result['thumb'])}"
+                             id="thumbnail-preview"
+                             style="cursor: pointer;max-width:100px;max-height:100px;"/>
+                        <else />
+                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                             id="thumbnail-preview"
+                             style="cursor: pointer;max-width:100px;max-height:100px;"/>
+                    </if>
+
+                </a>
+                <input type="button" class="btn btn-sm btn-cancel-thumbnail" value="取消图片">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="hidden" class="form-control" name="id" value="{$result.id}">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:lang('EDIT')}</button>
+                <a class="btn btn-default" href="{:url('danghistory/index')}">{:lang('BACK')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="__STATIC__/js/admin.js"></script>
+
+<script type="text/javascript">
+    $(".btn-cancel-thumbnail").click(function(){
+        $("#thumbnail-preview").attr('src','__TMPL__/public/assets/images/default-thumbnail.png');
+        $("#thumbnail").val('');
+    });
+
+</script>
+</body>
+</html>

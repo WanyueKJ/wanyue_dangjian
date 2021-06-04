@@ -1,0 +1,115 @@
+2021-05-26 08:44:49|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:44:49|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:47:55|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:47:55|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:48:32|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:48:37|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:48:37|ERROR|Home.GetConfig|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(411): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(92): getpartylist()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getConfig()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:54:03|ERROR|Login.UserLogin|PDOException: Table 'zhihui_sdwanyue_.cmf_scores_record' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(534): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(120): handleUserScoreDay('21', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-26 08:54:24|ERROR|User.getUserAuth|PDOException: Table 'zhihui_sdwanyue_.cmf_front_auth' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT rule_nam...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/User.php(201): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/User.php(349): Model_User->getUserAuth()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/User.php(587): Domain_User->getUserAuth()
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_User->getUserAuth()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-26 08:55:51|ERROR|User.GetBaseInfo|PDOException: Table 'zhihui_sdwanyue_.cmf_partybranch' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(442): NotORM_Result->fetchOne()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/User.php(40): getbranch('1')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/User.php(153): Domain_User->getBaseInfo('21')
+#6 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_User->getBaseInfo()
+#7 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#8 {main}
+2021-05-26 08:56:52|ERROR|User.GetBaseInfo|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(438): NotORM_Result->fetchOne()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/User.php(41): getpost('2')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/User.php(153): Domain_User->getBaseInfo('21')
+#6 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_User->getBaseInfo()
+#7 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#8 {main}
+2021-05-26 08:57:36|ERROR|User.GetBaseInfo|PDOException: Table 'zhihui_sdwanyue_.cmf_partypost' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(888): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(876): NotORM_Result->fetchRow('')
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(438): NotORM_Result->fetchOne()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/User.php(41): getpost('2')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/User.php(153): Domain_User->getBaseInfo('21')
+#6 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_User->getBaseInfo()
+#7 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#8 {main}

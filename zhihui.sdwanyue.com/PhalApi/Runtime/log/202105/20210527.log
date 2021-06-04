@@ -1,0 +1,1178 @@
+2021-05-27 10:12:19|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:20|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:21|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:21|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:22|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:22|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:22|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:23|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:24|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:24|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:26|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:26|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:27|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:27|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:27|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:28|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:28|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:28|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:28|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:29|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:12:33|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:16:04|ERROR|Login.UserLogin|PDOException: Table 'zhihui_sdwanyue_.cmf_scores_record' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(534): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(120): handleUserScoreDay('19', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-27 10:22:52|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:52|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:53|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:53|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:54|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:54|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:54|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:55|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:22:55|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:09|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:09|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:10|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:10|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:10|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:11|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:38|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:38|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:39|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:39|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:45|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:45|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:45|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:45|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:45|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:47|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:47|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:47|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:47|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:47|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:48|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:48|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:48|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:48|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:48|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:49|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:49|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:49|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('15288912011')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:23:59|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:00|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:01|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:01|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:02|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:03|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:03|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:03|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:04|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:05|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:06|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:07|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:07|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:07|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:07|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:07|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:08|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:08|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:08|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:08|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:08|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:09|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:24:09|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13822224444')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:29:33|ERROR|Login.UserLogin|PDOException: Incorrect integer value: '' for column 'partybranch' at row 1 in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Login.php(35): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Login.php(32): Model_Login->insertuser(Array)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(98): Domain_Login->userLogin('13355556666')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 10:30:36|ERROR|Login.UserLogin|PDOException: Table 'zhihui_sdwanyue_.cmf_scores_record' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(534): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(120): handleUserScoreDay('210', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-27 10:30:50|ERROR|Login.UserLogin|PDOException: Table 'zhihui_sdwanyue_.cmf_scores_record' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(338): NotORM_Result->query('INSERT INTO cmf...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(355): NotORM_Result->insert_multi(Array)
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Common/functions.php(534): NotORM_Result->insert(Array)
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Login.php(120): handleUserScoreDay('211', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Login->userLogin()
+#5 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#6 {main}
+2021-05-27 10:32:54|DEBUG|succeed to upload file to qiniu|{"hash":"FmtlHWUaJbuWWyXD_7_eFsvDuKXH","key":"20210527103254_e3cd3c5736807f6d21c661b9ea02769e"}
+2021-05-27 14:13:53|ERROR|Home.Learnindex|PDOException: Table 'zhihui_sdwanyue_.cmf_window' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(65): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(84): Model_Home->getwindow(1, 4)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(261): Domain_Home->learnindex()
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->learnindex()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 14:14:07|ERROR|Home.Learnindex|PDOException: Table 'zhihui_sdwanyue_.cmf_window' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(65): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(84): Model_Home->getwindow(1, 4)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(261): Domain_Home->learnindex()
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->learnindex()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 14:17:45|ERROR|Home.Learnindex|PDOException: Table 'zhihui_sdwanyue_.cmf_lession' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(80): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(93): Model_Home->getlession(1, 4)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(261): Domain_Home->learnindex()
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->learnindex()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 14:20:25|ERROR|Home.Learnindex|PDOException: Table 'zhihui_sdwanyue_.cmf_danghistory' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(90): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(102): Model_Home->getDanghistoryList()
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(261): Domain_Home->learnindex()
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->learnindex()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 14:32:57|ERROR|Home.GetKnowledgeById|PDOException: Table 'zhihui_sdwanyue_.cmf_knowledge' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(114): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(168): Model_Home->getKnowledgeById('2')
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(600): Domain_Home->getKnowledgeById('2')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getKnowledgeById()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 14:46:27|ERROR|Home.GetKnowledgeById|PDOException: Table 'zhihui_sdwanyue_.cmf_knowledge' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(114): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(168): Model_Home->getKnowledgeById('2')
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(600): Domain_Home->getKnowledgeById('2')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getKnowledgeById()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 15:20:54|ERROR|Home.Getparter|PDOException: Table 'zhihui_sdwanyue_.cmf_parter' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(67): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(147): Model_Home->getparter('0', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(174): Domain_Home->getparter('0', '1')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getparter()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}
+2021-05-27 15:22:07|ERROR|Home.Getparter|PDOException: Table 'zhihui_sdwanyue_.cmf_parter' doesn't exist in /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php:258
+Stack trace:
+#0 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(811): NotORM_Result->query('SELECT * FROM c...', Array)
+#1 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/NotORM/NotORM/Result.php(897): NotORM_Result->execute()
+#2 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Model/Home.php(67): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Domain/Home.php(147): Model_Home->getparter('0', 1)
+#4 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/Appapi/Api/Home.php(174): Domain_Home->getparter('0', '1')
+#5 /www/wwwroot/zhihui.sdwanyue.com/PhalApi/PhalApi/PhalApi.php(57): Api_Home->getparter()
+#6 /www/wwwroot/zhihui.sdwanyue.com/public/appapi/index.php(15): PhalApi->response()
+#7 {main}

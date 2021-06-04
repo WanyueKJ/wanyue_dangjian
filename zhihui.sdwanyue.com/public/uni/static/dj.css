@@ -1,0 +1,48 @@
+.color_ff {
+	color: #FFFFFF !important;
+}
+
+.color_32 {
+	color: #323232;
+}
+
+.color_96 {
+	color: #969696;
+}
+
+.color_red {
+	color: #FE5A13;
+}
+
+.color_33 {
+	color: #333333;
+}
+
+.money-icon {
+	display: inline-block;
+	width: 35rpx;
+	height: 35rpx;
+}
+
+.font_24 {
+	font-size: 24rpx;
+}
+
+.font_26 {
+	font-size: 26rpx;
+}
+
+.font_28 {
+	font-size: 28rpx;
+}
+
+.font_32 {
+	font-size: 32rpx;
+}
+
+.font_w {
+	font-weight: bold;
+}
+
+
+
