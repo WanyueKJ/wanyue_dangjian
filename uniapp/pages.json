@@ -1,0 +1,274 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/login/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+				
+			}
+			
+		},
+		{
+			"path" : "pages/webview/index",
+			"style" :                                                                                    
+			{
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/notice/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "工作提示",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/study/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		},
+		{
+			"path" : "pages/study_1/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "党建参阅",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/message/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "消息通知",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/my_history/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "浏览历史",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/my_update/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "编辑资料",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		},
+		{
+			"path" : "pages/my/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+			
+		},
+		{
+			"path" : "pages/forget/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+			
+		}
+        ,{
+            "path" : "components/article-list/article-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "components/think-list/think-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        },
+		{
+			"path": "pages/scanning/index",
+			"style": {
+				"navigationBarTitleText": "要闻速览",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+        ,{
+            "path" : "components/see-list/see-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        },
+		//banner图
+		{
+			"path": "pages/about/banner",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/demeanor_detail/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "先模风采",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black"
+			}
+			
+		},
+		{
+			"path" : "pages/demeanor/index",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "先模风采",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#fff",
+				"navigationBarTextStyle":"black"
+			}
+			
+		},
+		{
+		    "path" : "pages/danghistory/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "党史知识",
+		        "app-plus":{
+		        	"titleNView":false
+		        }
+		    }
+		    
+		},
+		{
+		    "path" : "pages/danghistory/more",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "党史知识",
+		        "app-plus":{
+		        	"titleNView":false
+		        }
+		    }
+		    
+		}
+				
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#fff",
+	    "selectedColor": "#FED030",
+	    "borderStyle": "black",
+	    "backgroundColor": "#FC342A",
+	    "list": [{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/images/tabbar-1.png",
+				"selectedIconPath":"static/images/tabbar-2.png"
+			},
+			{
+				"pagePath":"pages/study/index",
+				"text":"学习手册",
+				"iconPath":"static/images/tabbar-3.png",
+				"selectedIconPath":"static/images/tabbar-4.png"
+			},
+			{
+				"pagePath":"pages/demeanor/index",
+				"text":"先模风采",
+				"iconPath":"static/images/tabbar/xianmo.png",
+				"selectedIconPath":"static/images/tabbar/xianmo2.png"
+			},
+			{
+				"pagePath":"pages/my/index",
+				"text":"我的",
+				"iconPath":"static/images/tabbar-7.png",
+				"selectedIconPath":"static/images/tabbar-8.png"
+			}]
+	}
+}

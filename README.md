@@ -85,7 +85,9 @@
   
   
   ### 页面展示
-    ![页面展示](https://images.gitee.com/uploads/images/2021/0602/174037_b8635057_2242923.jpeg "1.jpg")
+
+  ![页面展示](https://images.gitee.com/uploads/images/2021/0602/174037_b8635057_2242923.jpeg "1.jpg")
+ 
   #### 功能对比
    ![对比](https://images.gitee.com/uploads/images/2021/0602/174059_23db3739_2242923.jpeg "2.jpg")
   
