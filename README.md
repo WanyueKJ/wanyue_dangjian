@@ -7,7 +7,9 @@
 ---
 
 ### 系统演示  
-![演示](https://images.gitee.com/uploads/images/2021/0602/173945_647f3fb0_2242923.png "155114_9bce1969_8162876.png")
+
+![演示](https://images.gitee.com/uploads/images/2021/0607/182030_50903b5e_2242923.png "11.png")
+
 ### Web版地址
 - 后台地址: <a target="_blank" href="https://zhihui.sdwanyue.com/admin">https://zhihui.sdwanyue.com/admin</a> 账号: demo 密码: 123456
 - 仓库地址: <a target="_blank" href="https://gitee.com/WanYueKeJi/wanyue_dangjian">点击此处</a> 
