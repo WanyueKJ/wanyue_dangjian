@@ -34,7 +34,7 @@ class CommentController extends AdminBaseController
             }
 
         })->order("addtime DESC")
-        ->paginate(10);
+        ->paginate(10,false, ['query' => input()]);
 
         $list->each(function ($v, $k) {
             $userinfo = Db::name('user')->where('id', '=', $v['uid'])->find();
