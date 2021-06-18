@@ -33,8 +33,7 @@ class CommentController extends AdminBaseController
                 $query->where('content', 'like', "%$keyword%");
             }
 
-        })->order("addtime DESC")
-        ->paginate(10,false, ['query' => input()]);
+        })->order("addtime DESC")->paginate(10,false, ['query' => input()]);
 
         $list->each(function ($v, $k) {
             $userinfo = Db::name('user')->where('id', '=', $v['uid'])->find();
@@ -54,8 +53,8 @@ class CommentController extends AdminBaseController
 
     public function edit()
     {
-        $id             = $this->request->param('id');
-        $result          = CommentsModel::find($id);
+        $id     = $this->request->param('id');
+        $result = CommentsModel::find($id);
         $this->assign('result', $result);
         return $this->fetch();
     }
