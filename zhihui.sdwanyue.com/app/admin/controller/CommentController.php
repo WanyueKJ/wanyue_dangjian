@@ -92,7 +92,6 @@ class CommentController extends AdminBaseController
         if ($this->request->isPost()) {
             $id  = $this->request->param('id', 0, 'intval');
             $info = CommentsModel::where('id',$id)->find();
-            
 
 			if(CommentsModel::where('id',$id)->delete()){
 				$this->success("删除成功！", url("Comments/index?type=".$info['type']));
