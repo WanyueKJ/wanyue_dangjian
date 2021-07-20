@@ -31,7 +31,7 @@ class PublicController extends AdminBaseController
         }
 
         $admin_id = session('ADMIN_ID');
-        if (!empty($admin_id)) {//已经登录
+        if (!empty($admin_id)) { //已经登录
             return redirect(url("admin/Index/index"));
         } else {
             session("__SP_ADMIN_LOGIN_PAGE_SHOWED_SUCCESS__", true);

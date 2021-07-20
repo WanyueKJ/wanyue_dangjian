@@ -62,8 +62,6 @@ class IndexController extends AdminBaseController
         }
         $this->assign("menus_js_var",json_encode($menusTmp));
 
-        //$admin = Db::name("user")->where('id', cmf_get_current_admin_id())->find();
-        //$this->assign('admin', $admin);
         return $this->fetch();
     }
 }
