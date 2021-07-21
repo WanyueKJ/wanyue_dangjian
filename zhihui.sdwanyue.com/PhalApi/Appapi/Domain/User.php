@@ -79,7 +79,6 @@ class Domain_User
 
     public function updatePass($uid, $oldpass, $pass)
     {
-        $rs = array();
 
         $model = new Model_User();
         $rs    = $model->updatePass($uid, $oldpass, $pass);
