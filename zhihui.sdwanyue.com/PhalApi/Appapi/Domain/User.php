@@ -89,13 +89,7 @@ class Domain_User
     //历史
     public function history($uid, $p)
     {
-
-
-        $rs    = array();
-        $model = new Model_User();
-
         $list = $this->gethistory($uid, $p);
-
         $rs = [
             'list' => $list,
         ];
