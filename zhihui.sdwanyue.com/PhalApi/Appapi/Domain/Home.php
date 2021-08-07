@@ -87,7 +87,6 @@ class Domain_Home {
 
     //党员
     public function getparter($branchid,$p){
-        $rs = array();
 
         $model = new Model_Home();
         $list = $model->getparter($branchid,$p);
@@ -99,7 +98,6 @@ class Domain_Home {
 
     //党员详情
     public function getpartershow($id){
-        $rs = array();
 
         $model = new Model_Home();
         $list = $model->getpartershow($id);
