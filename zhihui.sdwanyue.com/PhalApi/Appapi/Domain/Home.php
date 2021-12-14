@@ -101,9 +101,7 @@ class Domain_Home {
 
         $model = new Model_Home();
         $list = $model->getpartershow($id);
-
         $list= $this->parterdata($list);
-
         return $list;
     }
 
@@ -133,7 +131,7 @@ class Domain_Home {
 		];
         return $rs;
     }
-    
+
 
 	//要闻速览(首页文章)
 	public function getScanning($p) {
