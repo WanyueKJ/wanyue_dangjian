@@ -20,7 +20,6 @@ class PartybranchController extends AdminBaseController
 
     public function index()
     {
-
 		$list = DB::name('partybranch')->order("list_order asc")->select();
         $this->assign('list', $list);
         return $this->fetch();
@@ -81,7 +80,7 @@ class PartybranchController extends AdminBaseController
 			if(DB::name('partybranch')->where('id',$id)->delete()){
 				$this->success("删除成功！", url("Partybranch/index"));
 			}
-			
+
             $this->error('信息错误');
         }
     }
@@ -91,5 +90,5 @@ class PartybranchController extends AdminBaseController
         $PartybranchModel = new  PartybranchModel();
         parent::listOrders($PartybranchModel);
         $this->success("排序更新成功！");
-    }	
+    }
 }

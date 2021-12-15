@@ -70,7 +70,6 @@ class AssetController extends AdminBaseController
                 $this->error('上传文件类型配置错误！');
             }
 
-
             View::share('filetype', $arrData["filetype"]);
             View::share('extensions', $extensions);
             View::share('upload_max_filesize', $fileTypeUploadMaxFileSize * 1024);

@@ -113,7 +113,6 @@ class Domain_Home {
         return $data;
     }
 
-
 	//通知公告
     public function notice($p) {
         $rs = array();
