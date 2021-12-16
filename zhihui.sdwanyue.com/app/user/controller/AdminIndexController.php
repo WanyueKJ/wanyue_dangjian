@@ -112,7 +112,6 @@ class AdminIndexController extends AdminBaseController
             if ($validate !== true) {
                 $this->error($validate);
             }
-
             $mobile = $data['mobile'] ?? '';
             $isExists = DB::name('users')->where('mobile', $mobile)->find();
             if ($isExists) {
@@ -126,7 +125,6 @@ class AdminIndexController extends AdminBaseController
             $data['is_admin_import'] =  1;
             $data['user_pass'] = setPass('123456');
             $data['user_login'] = $data['mobile'] ?? '';
-
             $result         = DB::name('users')->insert($data);
             if (!$result) {
                 $this->error($result);
