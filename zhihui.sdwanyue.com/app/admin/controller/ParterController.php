@@ -17,36 +17,43 @@ use think\Db;
 class ParterController extends AdminBaseController
 {
 
-	private function getpartybranch(){
-		return DB::name('partybranch')->order("list_order asc")->select();
-	}
-	private function getpartypost(){
-		return DB::name('partypost')->order("list_order asc")->select();
-	}	
+    private function getpartybranch()
+    {
+        return DB::name('partybranch')->order("list_order asc")->select();
+    }
+
+    private function getpartypost()
+    {
+        return DB::name('partypost')->order("list_order asc")->select();
+    }
+
     public function index()
     {
-        $map    = [];
-		$data   = $this->request->param();
-        $partybranch =isset($data['partybranch']) && $data['partybranch'] ? $data['partybranch'] : '';
+        $map         = [];
+        $data        = $this->request->param();
+        $partybranch = isset($data['partybranch']) && $data['partybranch'] ? $data['partybranch'] : '';
         if ($partybranch != '') {
             $map[] = ['partybranch', '=', $partybranch];
         }
-        $partypost =isset($data['partypost']) && $data['partypost'] ? $data['partypost'] : '';
+        $partypost = isset($data['partypost']) && $data['partypost'] ? $data['partypost'] : '';
         if ($partypost != '') {
             $map[] = ['partypost', '=', $partypost];
-        }	
-		$list = DB::name('parter')->where($map)->order("list_order asc")->paginate(10, false, ['query' => input()]);
+        }
+        $list = DB::name('parter')->where($map)->order("list_order asc")->paginate(10, false, ['query' => input()]);
         $list->each(function ($v, $k) {
-			$v['post'] = DB::name('partypost')->where('id',$v['partypost'])->value('name');
-			$v['branch'] = DB::name('partybranch')->where('id',$v['partybranch'])->value('name');
+            $v['post']   = DB::name('partypost')->where('id', $v['partypost'])->value('name');
+            $v['branch'] = DB::name('partybranch')->where('id', $v['partybranch'])->value('name');
             return $v;
-        });		
-		$page = $list->render();
-		$this->assign("page", $page);
-        $this->assign('list', $list);
-        $this->assign('partybranch', $this->getpartybranch());
-        $this->assign('partypost', $this->getpartypost());
+        });
+        $page = $list->render();
 
+        $this->assign([
+            'page'        => $page,
+            'list'        => $list,
+            'partybranch' => $this->getpartybranch(),
+            'partypost'   => $this->getpartypost(),
+
+        ]);
 
         return $this->fetch();
     }
@@ -63,12 +70,12 @@ class ParterController extends AdminBaseController
     public function addPost()
     {
         if ($this->request->isPost()) {
-            $data           = $this->request->param();
-            $validate         = $this->validate($data, 'Parter');
+            $data     = $this->request->param();
+            $validate = $this->validate($data, 'Parter');
             if ($validate !== true) {
                 $this->error($validate);
             }
-            $result         = DB::name('parter')->insert($data);
+            $result = DB::name('parter')->insert($data);
             if (!$result) {
                 $this->error($result);
             }
@@ -78,8 +85,8 @@ class ParterController extends AdminBaseController
 
     public function edit()
     {
-        $id             = $this->request->param('id');
-        $result          = DB::name('parter')->where('id',$id)->find();
+        $id     = $this->request->param('id');
+        $result = DB::name('parter')->where('id', $id)->find();
         $this->assign('result', $result);
         $this->assign('partybranch', $this->getpartybranch());
         $this->assign('partypost', $this->getpartypost());
@@ -89,17 +96,17 @@ class ParterController extends AdminBaseController
     public function editPost()
     {
         if ($this->request->isPost()) {
-            $data   = $this->request->param();
-            $validate         = $this->validate($data, 'Parter');
+            $data     = $this->request->param();
+            $validate = $this->validate($data, 'Parter');
             if ($validate !== true) {
                 $this->error($validate);
             }
-            $slidePostModel = DB::name('parter')->where('id',$data['id'])->update($data);
-			
-			if($slidePostModel){
-				$this->success("保存成功！", url("parter/index"));
-			}
-             $this->error('信息错误');
+            $slidePostModel = DB::name('parter')->where('id', $data['id'])->update($data);
+
+            if ($slidePostModel) {
+                $this->success("保存成功！", url("parter/index"));
+            }
+            $this->error('信息错误');
         }
     }
 
@@ -107,11 +114,11 @@ class ParterController extends AdminBaseController
     public function delete()
     {
         if ($this->request->isPost()) {
-            $id             = $this->request->param('id', 0, 'intval');
-			if(DB::name('parter')->where('id',$id)->delete()){
-				$this->success("删除成功！", url("parter/index"));
-			}
-			
+            $id = $this->request->param('id', 0, 'intval');
+            if (DB::name('parter')->where('id', $id)->delete()) {
+                $this->success("删除成功！", url("parter/index"));
+            }
+
             $this->error('信息错误');
         }
     }
@@ -121,5 +128,5 @@ class ParterController extends AdminBaseController
         $parterpageModel = new  ParterModel();
         parent::listOrders($parterpageModel);
         $this->success("排序更新成功！");
-    }	
+    }
 }
