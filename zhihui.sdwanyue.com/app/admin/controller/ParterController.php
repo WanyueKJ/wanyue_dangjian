@@ -52,7 +52,6 @@ class ParterController extends AdminBaseController
             'list'        => $list,
             'partybranch' => $this->getpartybranch(),
             'partypost'   => $this->getpartypost(),
-
         ]);
 
         return $this->fetch();

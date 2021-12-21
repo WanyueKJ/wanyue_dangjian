@@ -33,7 +33,7 @@ class CommentController extends AdminBaseController
                 $query->where('content', 'like', "%$keyword%");
             }
 
-        })->order("addtime DESC")->paginate(10,false, ['query' => input()]);
+        })->order("addtime DESC")->paginate(15,false, ['query' => input()]);
 
         $list->each(function ($v, $k) {
             $userinfo = Db::name('user')->where('id', '=', $v['uid'])->find();
@@ -42,7 +42,7 @@ class CommentController extends AdminBaseController
             }
 			$v['userinfo']=$userinfo;
             return $v;
-        });		
+        });
         $page = $list->render();
 		$this->assign("page", $page);
 		$this->assign("type", $data['type']);
@@ -64,7 +64,7 @@ class CommentController extends AdminBaseController
         if ($this->request->isPost()) {
             $data   = $this->request->param();
             $slidePostModel = CommentsModel::where('id',$data['id'])->update($data);
-			
+
 			if($slidePostModel){
 
                 $info = CommentsModel::where('id',$data['id'])->find();
@@ -78,7 +78,7 @@ class CommentController extends AdminBaseController
                 }
                 if($data['status']=='0'){
                     $msg['conotent'] ='你的评论“'.$info['content'].'”审核未通过~';
-                }	
+                }
                 DB::name('msg')->insert($msg);
 				$this->success("编辑成功！", url("Comments/index?type=".$data['type']));
 			}
@@ -96,7 +96,7 @@ class CommentController extends AdminBaseController
 			if(CommentsModel::where('id',$id)->delete()){
 				$this->success("删除成功！", url("Comments/index?type=".$info['type']));
 			}
-			
+
             $this->error('信息错误');
         }
     }
