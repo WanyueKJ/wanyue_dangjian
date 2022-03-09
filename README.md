@@ -1,113 +1,106 @@
 <div align=center><img src="https://images.gitee.com/uploads/images/2021/0602/173906_8033df4c_2242923.png" width="590" height="212"/></div>
 
-### 项目说明（如果对你有用，请点亮右上角的Star！）
+### Project Description (If useful to you, please light up the Star in the upper right corner!)
 
-##### <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288362">项目文档</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288363">部署文档</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288739">常见问题</a> 
+##### <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288362">Project documentation</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288363">Deployment document</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288739">Q&A</a> 
 
 ---
 
-### 系统演示  
+### Demo  
 
 ![演示](https://images.gitee.com/uploads/images/2021/0609/141714_dd5c9fac_2242923.png "1(2).png")
 
-### Web版地址
-- 后台地址: <a target="_blank" href="https://zhihui.sdwanyue.com/admin">https://zhihui.sdwanyue.com/admin</a> 账号: demo 密码: 123456
-- 仓库地址: <a target="_blank" href="https://gitee.com/WanYueKeJi/wanyue_dangjian">点击此处</a> 
+### The Web version of address
+- Address of the background: <a target="_blank" href="https://zhihui.sdwanyue.com/admin">https://zhihui.sdwanyue.com/admin</a> account: demo password: 123456
+- The warehouse address: <a target="_blank" href="https://gitee.com/WanYueKeJi/wanyue_dangjian">Click here to</a> 
     
-### 项目介绍
-万岳科技经过对智慧党建市场的长期调研，综合当下各大机构对于党建产品的功能需求，着重于用户体验，自主研发了一套集学习手册、党员风采、内容管理等功能为一体的万岳智慧党建系统，满足用户对于组织学习、党建参阅、党员管理等多种活动的场景需求。
-* 所有使用到的框架或者组件都是基于开源项目，代码保证100%开源。
-* 系统功能通用，无论是个人还是企业都可以利用该系统快速搭建一个属于自己的智慧党建平台。
+### Project introduction
+Wan Yue technology after the wisdom of party construction market research for a long time, the comprehensive function of the institutions for party building products demand, focus on the user experience, independent research and development a set of study guide, party style, content management, and other functions as one of the Wan Yue wisdom party construction system, to meet user for organizational learning, the party see scenes of demand, the party member management, and other activities.
+* All frameworks or components used are based on open source projects and the code is guaranteed to be 100% open source.
+* Universal system functions, both individuals and enterprises can use the system to quickly build a smart party building platform of their own.
 
-系统前端采用uni-app+H5核心技术, 接口采用PhalApi框架配合TP5.1框架ThinkCMF,系统功能如下:
+Uni-app +H5 core technology is adopted at the front of the system, PhalApi framework is adopted for the interface and TP5.1 framework ThinkCMF is adopted. The system functions are as follows:
 
-### 技术亮点
+### Technical highlights
 ```
-  UNI-APP端:
-    1.一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序
-    2.依托Dcloud公司强大的生态圈, 开发者无论是拿来直接用还是自己修改后使用都
-    十分的方便, 网上资料/文档齐全,无需担心bug解决不了..
-    3.项目占用空间小,全部加起来不到2MB,占用开发者磁盘空间极少.
-    4.代码中做了多端适配, 小程序端、H5端、安卓、IOS端样式都做到了样式兼容.
-    7.使用vue开发, 保证了样式美观的同时, 规避了nvue样式的兼容问题.
-    8.配置方便, 无需安装, 下载之后使用Hbuilder编辑器即可运行查看.    
+UNI-APP端:
+1. A set of code that can be published to iOS, Android, Web (responsive), and various applets
+2. Relying on the strong ecosystem of Dcloud company, developers can use it directly or modify it by themselves，Very convenient, online information/documents complete, no need to worry about the bug can not be solved..
+3. The project occupies a small space, less than 2MB in total, occupying very little disk space for developers.
+4. Multi-end adaptation has been made in the code, including style compatibility of small program side, H5 side, Android side and IOS side.
+7. The use of VUE development, to ensure the style beautiful at the same time, to avoid nvUE style compatibility problems.
+8. Easy to configure, no installation, after downloading the Hbuilder editor can be run to view.
     
-  后端:  
-    1.后台应用ThinkCMF快速生成现代化表单.
-    2.PHPExcel数据导出,导出表格更加美观,可视.
-    3.后台多任务窗口化操作界面.
-    4.内置强大灵活的权限管理.
-    5.内置组合数据,系统配置,管理碎片化数据.
-    6.客户端完善的交互效果和动画.
-    7.高频数据缓存.
-    8.内置PhalApi接口框架,前后端分离更方便.
-    9.支持队列降低流量高峰，解除耦合，高可用.
-    10.无需安装, clone下来即可直接使用, 完全100%真开源.
+The backend:
+1. Background application ThinkCMF to quickly generate modern forms.
+2.PHPExcel data export, export table more beautiful and visual.
+3. Background multi-task window.
+4. Built-in powerful and flexible rights management.
+5. Built-in combined data, system configuration, and management of fragmented data.
+6. Perfect interaction effect and animation of the client.
+7. High-frequency data cache.
+8. Built-in PhalApi interface framework for easy separation of front and back ends.
+9. Support queue to reduce traffic peak, remove coupling, high availability.
+10. Clone can be used directly without installation, completely 100% true open source.
      
 ```
  
- ### 主要功能介绍
+ ### Main Functions
 
- * 登录页面，可通过手机号码及验证码进行登录.
- * 首页功能，展示Banner轮播图、工作提示、推荐文章
- * 账号，展示头像、昵称等账号信息，可编辑头像、昵称
- * 学习手册, 展示党史知识、党建参阅 
- * 先模风采, 展示党员风采和先进事迹
- * 个人中心, 展示用户相关资料和修改密码
+* Login page, you can log in by mobile phone number and verification code.
+* Home page function, display Banner rotation chart, work tips, recommended articles
+* Account, display profile picture, nickname and other account information, can be edited profile picture, nickname
+* Study manual, show party history knowledge, party construction reference
+* First model elegant demeanour, display party members elegant demeanour and advanced deeds
+* Personal center, display user information and change password
  
 
-### 后台主要功能介绍
-* 设置
+### Main functions of the background
+* Set up the
   
-  1.网站信息 网站的相关信息及SEO设置
-    
-  2.私密设置 配置系统的重要参数（包括登录配置、云存储设置）
-    
-  3.幻灯片管理 首页轮播banner图管理配置
-  
-  4.上传设置 上传信息相关配置
-  
-  5.文件存储 文件存储信息相关配置
-  
-* 用户管理
-    
-  1.管理组 编辑后台管理员身份及权限等相关配置
-    
-  2.用户列表 平台所有注册用户信息列表，可进行编辑、禁用、删除等操作
+1. Website information Website related information and SEO Settings
+2. Private Settings Configure important system parameters (including login configuration and cloud storage Settings).
+3. Slide management Manage and configure the rotation banner chart of the home page
+4. Upload Settings Upload information configurations
+5. Configure file storage information
 
-  
-* 插件中心
+* User management
 
-  1.插件列表 查看编辑应用插件信息
+1. Edit background administrator identities and permissions
+2. User List List of all registered users on the platform, which can be edited, disabled, or deleted
 
-* 内容管理
-    
-  1.学习手册 党史知识和党建参阅添加修改删除等操作
-  2.先模风采 党员添加及简介
+
+* Plug-in Center
+
+1. Plug-in list View and edit application plug-in information
+
+* Content Management
+
+1. Study manual party history knowledge and party construction reference add, modify, delete and other operations
+2. Add and introduce the first model elegant party members
   
-  
-  ### 页面展示
+  ### The page display
  ![页面展示](https://images.gitee.com/uploads/images/2021/0602/174037_b8635057_2242923.jpeg "1.jpg")
  
-  #### 功能对比
+  #### Functional comparison
    ![对比](https://images.gitee.com/uploads/images/2021/0603/095505_730807d0_2242923.png "功能对比4(2).png")
   
-   ### 开源版使用须知
+   ### Open Source Edition Usage notes
     
-   * 允许用于个人学习、教学案例
-    
-   * 开源版不适合商用，商用请购买商业版
-    
-   * 禁止将本项目的代码和资源进行任何形式的出售，产生的一切任何后果责任由侵权者自负  
+* Allowed for personal study and teaching cases
+
+* The open source version is not suitable for commercial use. Please purchase the commercial version for commercial use
+
+* It is forbidden to sell the code and resources of the project in any form, and the infringer shall be solely responsible for any consequences arising therefrom
   
-  ### 商业合作
-  * 如果你想使用功能更完善的党建系统，请联系QQ客服: 2415408120获取专业版
-  * 如果您想基于党建系统进行定制开发，我们提供有偿定制服务支持！
-  * 其他合作模式不限，欢迎来撩！
-  * 官网地址：[http://git.sdwanyue.com](http://git.sdwanyue.com)
+  ### Business cooperation
+* If you want to use a more complete party construction system, please contact QQ customer service: 2415408120 to obtain a professional version
+* If you want to customize development based on the Party construction system, we provide paid customized service support!
+* There is no limit to other cooperation modes, welcome to visit!
+* Official website: [http://git.sdwanyue.com](http://git.sdwanyue.com)
                   
     
-  ### 联系我们（加客服经理微信或QQ，免费获取sql脚本）
+  ### Contact us (add customer service manager wechat or QQ, free access to THE SQL script)
   
   <div style='height: 130px'>
       <img class="kefu_weixin" style="float:left;" src="https://images.gitee.com/uploads/images/2021/0317/105917_b29af80c_8543696.png" width="602" height="123"/>
