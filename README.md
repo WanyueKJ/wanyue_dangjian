@@ -2,7 +2,7 @@
 
 ### Project Description (If useful to you, please light up the Star in the upper right corner!)
 
-##### <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288362">Project documentation</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288363">Deployment document</a> | <a target="_blank" href="http://doc.sdwanyue.com/wanyue_open_dangjian/2288739">Q&A</a> 
+##### <a target="_blank" href="https://www.kancloud.cn/wanyuekaiyuan11/wanyue_dangjian/2795972">Project documentation</a> | <a target="_blank" href="https://www.kancloud.cn/wanyuekaiyuan11/wanyue_dangjian/2795972">Deployment document</a> | <a target="_blank" href="https://www.kancloud.cn/wanyuekaiyuan11/wanyue_dangjian/2795972">Q&A</a> 
 
 ---
 
@@ -83,7 +83,7 @@ The backend:
  ![页面展示](https://images.gitee.com/uploads/images/2021/0602/174037_b8635057_2242923.jpeg "1.jpg")
  
   #### Functional comparison
-   ![对比](https://images.gitee.com/uploads/images/2021/0603/095505_730807d0_2242923.png "功能对比4(2).png")
+   ![对比](https://gitee.com/WanYueKeJi/wanyue_dangjian/raw/master/%E5%85%9A%E5%BB%BA%E6%96%B0%E7%89%88.png "功能对比4(2).png")
   
    ### Open Source Edition Usage notes
     
@@ -103,7 +103,7 @@ The backend:
   ### Contact us (add customer service manager wechat or QQ, free access to THE SQL script)
   
   <div style='height: 130px'>
-      <img class="kefu_weixin" style="float:left;" src="https://images.gitee.com/uploads/images/2021/0317/105917_b29af80c_8543696.png" width="602" height="123"/>
+      <img class="kefu_weixin" style="float:left;" src="https://gitee.com/WanYueKeJi/wanyue_education_uniapp/raw/newone/pages/%E5%BC%A0%E7%9A%93%E5%BC%80%E6%BA%90.png" width="602" height="123"/>
       <div style="float:left;">
           <p>QQ：259603330</p>
           <p>QQ群：995910672</p>
